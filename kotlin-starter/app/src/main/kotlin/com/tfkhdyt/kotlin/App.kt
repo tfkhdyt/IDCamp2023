@@ -3,13 +3,112 @@
  */
 package com.tfkhdyt.kotlin
 
-class App {
-    val greeting: String
-        get() {
-            return "Hello World!"
-        }
+fun main() {
+//    val name = "Taufik Hidayat"
+//    print("Hello my name is ")
+//    println(name)
+//    print(if (true) "Always true" else "Always false")
+//    val company = "Dicoding"
+//    val firstWord = "Dicoding "
+//    val lastWord = "Academy"
+//    println(firstWord + lastWord)
+//
+//    val valueA: Int = 10
+//    val valueB = 20
+//    println(valueA + valueB)
+
+//    var vocal = 'A'
+//    println("Vocal " + vocal++)
+//    println("Vocal " + vocal++)
+//    println("Vocal " + vocal++)
+//    println("Vocal " + vocal--)
+//    println("Vocal " + vocal--)
+//    println("Vocal " + vocal--)
+//    println("Vocal " + vocal--)
+
+//    val text = "Kotlin"
+//    val firstChar = text[0]
+//
+//    println("First character of $text is $firstChar")
+//
+//    for (char in text) {
+//        print("$char ")
+//    }
+//
+//    val name = "Unicode test: \u00A9"
+//    println(name)
+//
+//    val line = """
+//        Line 1
+//        Line 2
+//        Line 3
+//        Line 4
+//    """.trimIndent()
+//
+//    println(line)
+
+//    val user = setUser("Taufik", 21)
+//    println(user)
+//
+//    printUser("Taufik")
+
+//    val officeOpen = 7
+//    val officeClosed = 16
+//    val now = 20
+//    val isOpen = now >= officeOpen && now <= officeClosed
+//    if (!isOpen) {
+//        println("Office is closed")
+//    } else {
+//        println("Office is open")
+//    }
+
+//    val intNumber = 100
+//    val longNumber = 100L
+//    val shortNumber: Short = 10
+//    val byteNumber = 0b11010010
+//    val doubleNumber = 1.3
+//    val floatNumber = 0.123456789f
+
+//    val maxInt = Int.MAX_VALUE
+//    val overRangeInt = Int.MAX_VALUE + 1
+//
+//    println("Max int: $maxInt")
+//    println("Over range Int: $overRangeInt")
+
+//    val numberOne = 27
+//    val numberTwo = 10
+//    println(numberOne + numberTwo)
+//    println(numberOne / numberTwo)
+//
+//    val byteNumber: Byte = 1
+//    val intNumber: Int = byteNumber.toInt()
+
+//    val stringNumber = "23"
+//    val intNumber = 3
+//
+//    println(intNumber + stringNumber.toInt())
+//
+//    val readableNumber = 1_000_000
+//    println(readableNumber)
+
+//    val intArray = intArrayOf(1, 3, 5, 7)
+//    intArray[2] = 11
+//    print(intArray[2])
+
+//    val text: String? = null
+//    val textLength = text?.length ?: 7
+//    print(textLength)
+
+    val name = "Taufik"
+    val old = 21
+    println("My name is $name, i'm $old years old")
+
+    val hour = 7
+    println("Office ${if (hour > 7) "already close" else "is open"}")
 }
 
-fun main() {
-    println(App().greeting)
-}
+//fun setUser(name: String, age: Int) = "Your name is $name, and you're $age years old"
+//
+//fun printUser(name: String) {
+//    println("Your name is $name")
+//}
